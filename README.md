@@ -4,7 +4,7 @@
 
 Submitted by: **Claudia Eder**
 
-Time spent: **10** hours spent in total
+Time spent: **12** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/jealous-quilted-beryllium
 
@@ -43,6 +43,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 There is no sound on gifs so cannot demonstrate the tones and audio functionality
+![](https://i.imgur.com/ifUJDdK.gif)
+Full Walkthrough
 ![](https://i.imgur.com/hGaapml.gif)
 Losing with strikes
 ![](https://i.imgur.com/b23MGHk.gif)
@@ -91,7 +93,7 @@ Winnong and showing randomized patterns
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)\
-   If I had more time to work on this project, I would further attempt to fix the glitch that occurs with the tones. For some reason, when I open my game in another webpage, the tones do not play when in sound game mode. It is extremely strange since it executes properly when the game in run in the window next to the code, so I am unsure if is an issue with my code or possibly with my web browser. I spent a few hours looking on the internet about issues with Audio Contexts not playing but could not come across anything similar to my issue in Glitch. I also would have liked to explore making my project more aesthetic and professional. Even though I added all the extended features and changed the appearance a little, it still appears very elementary. I would like to have solidified the layout so that way the features did not move so dynamically. I felt like every time I added a feature it was not clear where it would end up due to the current layout model.
+   If I had more time to work on this project, I would further attempt to fix the glitch that occurs with the tones. For some reason, when I open my game in another webpage, the tones do not play right away when in sound game mode. It is almost like they take sometime to load, but it does not occur with the audio files.  It executes properly when the game in run in the window next to the code, so I am unsure if is an issue with my code or possibly with my web browser. I spent a few hours looking on the internet about issues with Audio Contexts not playing immediately but could not come across anything similar to my issue in Glitch. I also would have liked to explore making my project more aesthetic and professional. Even though I added all the extended features and changed the appearance a little, it still appears very elementary. I would like to have solidified the layout so that way the features did not move so dynamically. I felt like every time I added a feature it was not clear where it would end up due to the current layout model.
 
 ## License
 
