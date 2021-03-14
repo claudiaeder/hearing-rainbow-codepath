@@ -42,7 +42,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+There is no sound on gifs so cannot demonstrate the tones and audio functionality
+![](https://i.imgur.com/hGaapml.gif)
+Losing with strikes
+![](https://i.imgur.com/b23MGHk.gif)
+Losing with timeout
+![](https://i.imgur.com/dz5O8fn.gif)
+Switching game modes
+![](https://i.imgur.com/YlWm3se.gif)
+Winnong and showing randomized patterns
 
 ## Reflection Questions
 

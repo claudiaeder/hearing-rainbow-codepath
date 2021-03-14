@@ -4,7 +4,7 @@ const nextClueWaitTime = 1000; //how long to wait before starting playback of th
 
 //Global variables
 var pattern = [];
-var patternLen = 8;
+var patternLen = 5;
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
