@@ -113,7 +113,7 @@ function countdown() {
     secs--;
     document.getElementById("countdownLbl").innerHTML =
       "Countdown: " + secs + " seconds";
-    if (secs == -1) {
+    if (secs == -1 && gamePlaying) {
       loseGame();
     }
   }, 1000);
