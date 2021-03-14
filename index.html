@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Hearing the Rainbow</h1>
+    
+    <p id="welcome">
+      Welcome to the game! Repeat back the pattern by pressing the buttons... Be careful! The color you hear may not be the color you press!
+    </p>
+    
+    <form id="gameMode">
+      <input type="radio" id="sound" name="gameMode" value="sound" onchange="setInstructions()">
+      <label for="sound">Sound</label><br>
+      <input type="radio" id="color" name="gameMode" value="color" onchange="setInstructions()" checked>
+      <label for="color">Color</label><br> 
+    </form> 
+    
+    <button id = "startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id = "stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <label id ="strikesLbl" class="hidden"> 
+    </label>
+    
+    <label id ="countdownLbl"> 
+    </label>
+
+    <audio  id="pink" src="https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2Fpink.mp3?v=1615605603898">
+    </audio>
+    <audio  id="orange" src="https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2Forange.mp3?v=1615605609591">
+    </audio>
+    <audio  id="yellow" src="https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2Fyellow.mp3?v=1615605618415">
+    </audio>
+    <audio  id="green" src="https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2Fgreen.mp3?v=1615605626811">
+    </audio>
+    <audio  id="blue" src="https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2Fblue.mp3?v=1615605633769">
+    </audio>
+    <audio  id="purple" src="https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2Fpurple.mp3?v=1615605649463">
+    </audio>
+    
+    <div id="gameButtonArea">
+      <button id = "button1" onclick="guess(1)" onmousedown="start(1)" onmouseup="stop(1)">
+        
+      </button>
+      
+      <button id = "button2" onclick="guess(2)" onmousedown="start(2)" onmouseup="stop(2)">
+        
+      </button>
+      <button id = "button3" onclick="guess(3)" onmousedown="start(3)" onmouseup="stop(3)">
+        
+      </button>
+      <button id = "button4" onclick="guess(4)" onmousedown="start(4)" onmouseup="stop(4)">
+        
+      </button>
+      <button id = "button5" onclick="guess(5)" onmousedown="start(5)" onmouseup="stop(5)">
+        
+      </button>
+      <button id = "button6" onclick="guess(6)" onmousedown="start(6)" onmouseup="stop(6)">
+        
+      </button> 
+    </div>
+  </body>
+</html>

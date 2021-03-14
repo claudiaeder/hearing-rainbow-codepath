@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: #fc3f81;
+  font-family: 'Brush Script MT', cursive;
+  font-size: xxx-large;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea >button{
+  width:200px;
+  height:200px;
+  border-radius:100px;
+  margin:2px;
+}
+
+.hidden{
+  display: none;
+}
+
+#button1{
+  background: pink;
+}
+#button2{
+  background: #FAC570;
+}
+#button3{
+  background: #fbffab;
+}
+#button4{
+  background: #c4ffab;
+}
+#button5{
+  background: #abfff8;
+}
+
+#button6{
+  background: #c7bbfc;
+}
+
+
+#button1:active, #button1.lit{
+  background:url('https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2FredRoses.png?v=1615602782258');
+}
+#button2:active, #button2.lit{
+  background:url('https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2ForangeSlices.jpg?v=1615604198587');
+}
+#button3:active, #button3.lit{
+  background:url('https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2FyellowSunflower.jpg?v=1615604313129');
+}
+#button4:active, #button4.lit{
+  background:url('https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2FgreenLimes.jpg?v=1615603007116');
+}
+#button5:active, #button5.lit{
+  background:url('https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2FblueOcean.jpg?v=1615604849405');
+}
+#button6:active, #button6.lit{
+  background:url('https://cdn.glitch.com/4929287b-4727-498c-b1f2-7ed53fb836af%2FpurpleFlowers.jpg?v=1615604958463');
+}
